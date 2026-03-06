@@ -17,6 +17,12 @@ By the end you will understand how these technologies work together to build int
 3. JavaScript – Add interactivity
 4. Deploy the website
 
+## Requirements
+
+1. VS Code
+2. Git
+3. Web Browser
+
 ---
 
 ## Getting Started
