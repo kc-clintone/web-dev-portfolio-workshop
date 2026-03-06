@@ -2,28 +2,90 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>My Portfolio</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Clinton | Fullstack dev</title>
+
 <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-<header>
-<h1>Your Name</h1>
-<p>Aspiring Web Developer</p>
-</header>
+<!-- Navbar -->
+<nav>
+  <h2 class="logo">Clinton</h2>
 
-<section id="about">
-<h2>About Me</h2>
-<p>I am learning HTML, CSS and JavaScript.</p>
+  <ul class="nav-links">
+    <li><a href="#hero">Home</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
+
+
+<!-- Hero Section -->
+<section id="hero" class="hero">
+  <h1>Hello, I'm Clinton</h1>
+  <p>A fulldtsck Web Developer</p>
+  <button id="ctaBtn">View My Work</button>
 </section>
 
-<section id="projects">
-<h2>Projects</h2>
+
+<!-- About Section -->
+<section id="about" class="about">
+  <h2>About Me</h2>
+
+  <p>
+    I'm learning how to build websites using HTML, CSS and JavaScript.
+    I enjoy turning ideas into simple and beautiful web experiences.
+  </p>
 </section>
 
-<button id="contactBtn">Contact Me</button>
+
+<!-- Projects Section -->
+<section id="projects" class="projects">
+
+  <h2>Projects</h2>
+
+  <div class="project-grid">
+
+    <div class="project-card">
+      <h3>Weather App</h3>
+      <p>A small JavaScript app showing weather data.</p>
+    </div>
+
+    <div class="project-card">
+      <h3>Todo List</h3>
+      <p>A task manager built with JavaScript.</p>
+    </div>
+
+    <div class="project-card">
+      <h3>Landing Page</h3>
+      <p>A responsive webpage using HTML and CSS.</p>
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- Contact Section -->
+<section id="contact" class="contact">
+
+  <h2>Contact</h2>
+
+  <p>If you'd like to collaborate or say hello:</p>
+
+  <button id="contactBtn">Send Message</button>
+
+</section>
+
+
+<footer>
+  <p>© 2026 Clinton</p>
+</footer>
 
 <script src="script.js"></script>
+
 </body>
 </html>
