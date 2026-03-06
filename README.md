@@ -27,28 +27,25 @@ By the end you will understand how these technologies work together to build int
 
 ## Getting Started
 
-Clone this repository:
+- Clone this repository:
 
+```bash
 git clone https://github.com/kc-clintone/web-dev-portfolio-workshop
+```
+- Open the project in VS Code.
 
-Open the project in VS Code.
-
-Start inside:
-
+- Navigate inside the cloned repo.
+- Then start here:
 starter-code
 
 ---
 
 ## Workshop Steps
 
-Step 1 – HTML Structure  
-step-1-html/
+- Step 1 – HTML Structure:  step-1-html/
 
-Step 2 – Styling with CSS  
-step-2-css/
+- Step 2 – Styling with CSS: step-2-css/
 
-Step 3 – JavaScript Interaction  
-step-3-javascript/
+- Step 3 – JavaScript Interaction: step-3-javascript/
 
-Final Version  
-final-project/
+- Final Version: final-project/
